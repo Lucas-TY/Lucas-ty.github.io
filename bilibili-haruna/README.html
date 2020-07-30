@@ -1,0 +1,41 @@
+<h1 id="bilibili-haruna"><a href="#bilibili-haruna" class="headerlink" title="bilibili-haruna"></a>bilibili-haruna</h1><blockquote>
+<p>B站看板娘集合 (live2d)</p>
+</blockquote>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>心血来潮从B站扒下来的看板娘（22娘，33娘），目前有10多套服装，其实核心 model 就2个。</p>
+<p>基于 live2d-widget 插件实现，项目地址: <a href="https://github.com/xiazeyu/live2d-widget.js">https://github.com/xiazeyu/live2d-widget.js</a></p>
+<p><strong>本例子中的 live2d-widget 修改过，如果要随机换装功能，推荐用本例子中的代码，或者坐等原作者更新</strong></p>
+<blockquote>
+<p>PS: urls.txt 文件就是从B站直播间的 model 里找的资源，如果你发现新的资源，请 pr 或联系我更新。</p>
+</blockquote>
+<h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><blockquote>
+<p>2018-11-22 更新 bls 冬装<br>2018-08-31 更新 bls 夏装  </p>
+</blockquote>
+<blockquote>
+<p>2018-03-31 更新<br>写了 <a href="fetch.js">fetch.js</a> 脚本爬取了 <a href="https://live.bilibili.com/">https://live.bilibili.com/</a> 100页分页，最终得到的目前最新集合。</p>
+</blockquote>
+<h2 id="hexo-中使用"><a href="#hexo-中使用" class="headerlink" title="hexo 中使用"></a>hexo 中使用</h2><ol>
+<li>在你的 hexo 博客的 source 目录下创建 live2d_models 目录</li>
+<li>将本仓库中的 assets/haruna 复制到刚才创建的 live2d_models 目录中<br>然后完整路径就是这样的 source/live2d_models/haruna</li>
+<li>安装 hexo-helper-live2d 模块</li>
+<li>在 _config.yml 中配置 live2d</li>
+</ol>
+<pre><code class="yml">live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: ./live2d_models/haruna/22/model.2017.tomo-bukatsu.low.json
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7</code></pre>
+<p>这个配置是插件文档那复制黏贴过来的，我没改其他的，只改了其中的 model use 这个字段。<br>其中的 ./live2d_models/haruna/22/model.2017.tomo-bukatsu.low.json 就是你想要的模型完整路径。</p>
+<p>需要想要哪个模型，自己换地址就好了。</p>
