@@ -181,13 +181,6 @@
   </url>
   
   <url>
-    <loc>http://blog.lucas-ty.space/categories/Git/</loc>
-    <lastmod>2021-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.lucas-ty.space/categories/Hexo/</loc>
     <lastmod>2021-09-08</lastmod>
     <changefreq>daily</changefreq>
@@ -195,7 +188,7 @@
   </url>
   
   <url>
-    <loc>http://blog.lucas-ty.space/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>http://blog.lucas-ty.space/categories/Git/</loc>
     <lastmod>2021-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -203,6 +196,13 @@
   
   <url>
     <loc>http://blog.lucas-ty.space/categories/RSS/</loc>
+    <lastmod>2021-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.lucas-ty.space/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2021-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
