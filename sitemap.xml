@@ -181,6 +181,13 @@
   </url>
   
   <url>
+    <loc>http://blog.lucas-ty.space/categories/RSS/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.lucas-ty.space/categories/Git/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
@@ -189,13 +196,6 @@
   
   <url>
     <loc>http://blog.lucas-ty.space/categories/Hexo/</loc>
-    <lastmod>2022-01-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.lucas-ty.space/categories/RSS/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
