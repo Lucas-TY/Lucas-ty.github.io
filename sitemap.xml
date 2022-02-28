@@ -144,13 +144,6 @@
 
   
   <url>
-    <loc>http://blog.lucas-ty.space/tags/Diary/</loc>
-    <lastmod>2022-02-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.lucas-ty.space/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-02-28</lastmod>
     <changefreq>daily</changefreq>
@@ -159,6 +152,13 @@
   
   <url>
     <loc>http://blog.lucas-ty.space/tags/Git/</loc>
+    <lastmod>2022-02-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.lucas-ty.space/tags/Diary/</loc>
     <lastmod>2022-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -174,13 +174,6 @@
   </url>
   
   <url>
-    <loc>http://blog.lucas-ty.space/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2022-02-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.lucas-ty.space/categories/Git/</loc>
     <lastmod>2022-02-28</lastmod>
     <changefreq>daily</changefreq>
@@ -188,7 +181,7 @@
   </url>
   
   <url>
-    <loc>http://blog.lucas-ty.space/categories/RSS/</loc>
+    <loc>http://blog.lucas-ty.space/categories/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2022-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -196,6 +189,13 @@
   
   <url>
     <loc>http://blog.lucas-ty.space/categories/Hexo/</loc>
+    <lastmod>2022-02-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.lucas-ty.space/categories/RSS/</loc>
     <lastmod>2022-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
